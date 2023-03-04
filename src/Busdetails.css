@@ -1,0 +1,71 @@
+.detailscontainer{
+    margin-top: 90px;
+   
+   
+    
+    
+    
+}
+.busdetail{
+    margin-left: 30%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.busdetail>ul{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.busdetail>ul>li{
+    list-style-type: none;
+    color: brown;
+}
+.namecolor{
+    color: rgb(3, 165, 3);
+    font-size: large;
+    font-weight: bold;
+}
+.booktemplate{
+    width:50%;
+    margin: auto;
+    text-align:center;
+    color: rgb(5, 202, 47);
+}
+
+.booksheet{
+ background-color: rgb(199, 61, 61);
+  width: 40%;
+    margin: auto;
+   border-radius: 6px;
+   color: white;
+}
+
+.booksheet>ul{
+    padding: 5px;
+  
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.booksheet>ul>li{
+    list-style-type: none;
+}
+.book_ticket{
+    display: block;
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+.book_ticket>button{
+    background-color: green;
+    height: 40px;
+    border-radius: 6px;
+    
+}

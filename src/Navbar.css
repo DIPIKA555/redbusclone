@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(246, 86, 86);
+    height: 25px;
+    
+}
+
+.leftnav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.rightnav {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+   
+    
+
+}
+
+
+.leftnav>a,
+.rightnav>a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
